@@ -1,0 +1,64 @@
+body{
+    background-color: #ff6964!important;
+}
+.container{
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    margin-left: 36%;
+}
+table{
+    margin-top: 10%;
+}
+table td{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+.isss{
+    margin-top:11%;
+    margin-left: 5%;
+    color: green;
+    font-size: 20px;
+}
+.winn{
+    display: flex;
+}
+.winner{
+    font-size: 40px;
+}
+@media (max-width: 420px) {
+    .container{
+        flex-direction: column;
+        width: 300px;
+        display: flex;
+        margin-left:10%;
+    }
+    table td{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30px;
+        text-align: center;
+        border: 1px solid white;
+        width: 70px;
+        height: 70px;
+    }
+    .isss{
+        margin-top:11%;
+        margin-left: 5%;
+        color: green;
+        font-size: 20px;
+    }
+    .winn{
+        display: flex;
+    }
+    .winner{
+        font-size: 40px;
+    }
+}
